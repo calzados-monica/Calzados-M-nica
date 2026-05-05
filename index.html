@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Calzados Mónica</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body { margin:0; font-family: Arial; }
+    header { background:#000; color:#fff; padding:15px; text-align:center;}
+    nav { background:#444; padding:10px; text-align:center;}
+    nav a { color:white; margin:10px; text-decoration:none; }
+
+    .hero {
+      background:#eee;
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    .btn {
+      background:#25D366;
+      color:white;
+      padding:12px 20px;
+      text-decoration:none;
+      display:inline-block;
+      margin-top:10px;
+      border-radius:5px;
+    }
+
+    .productos {
+      display:flex;
+      flex-wrap:wrap;
+      justify-content:center;
+      gap:20px;
+      padding:30px;
+    }
+
+    .producto {
+      border:1px solid #ccc;
+      padding:15px;
+      width:220px;
+      text-align:center;
+    }
+
+    footer {
+      background:#000;
+      color:white;
+      text-align:center;
+      padding:15px;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Calzados Mónica</h1>
+  <p>Calzado para toda la familia</p>
+</header>
+
+<nav>
+  <a href="#">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#contacto">Contacto</a>
+</nav>
+
+<section class="hero">
+  <h2>Encontrá tu estilo</h2>
+  <p>Zapatillas, zapatos y más al mejor precio</p>
+  <a class="btn" href="https://wa.me/54911XXXXXXXX">Comprar por WhatsApp</a>
+</section>
+
+<section id="productos">
+  <h2 style="text-align:center;">Productos destacados</h2>
+
+  <div class="productos">
+    <div class="producto">
+      <h3>Zapatillas deportivas</h3>
+      <p>$45.000</p>
+      <a class="btn" href="https://wa.me/54911XXXXXXXX">Consultar</a>
+    </div>
+
+    <div class="producto">
+      <h3>Zapatos urbanos</h3>
+      <p>$38.000</p>
+      <a class="btn" href="https://wa.me/54911XXXXXXXX">Consultar</a>
+    </div>
+
+    <div class="producto">
+      <h3>Botas</h3>
+      <p>$52.000</p>
+      <a class="btn" href="https://wa.me/54911XXXXXXXX">Consultar</a>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" style="text-align:center; padding:30px;">
+  <h2>Contacto</h2>
+  <p>📍 Tres de Febrero</p>
+  <p>📞 WhatsApp: 11-XXXXXXXX</p>
+</section>
+
+<footer>
+  <p>© 2026 Calzados Mónica</p>
+</footer>
+
+</body>
+</html>
